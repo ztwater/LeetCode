@@ -1,0 +1,2 @@
+# LeetCode
+Learn by myself
