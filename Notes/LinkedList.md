@@ -10,7 +10,7 @@
 
 *0083-01 (71.81 100.00):* 尽可能的用更少的临时指针。
 
-**0141 Linked List Cycle** ***(also with tag `<two pointers>`)***
+**0141 Linked List Cycle (also with tag `<two pointers>`)**
 
 *0141-01 (6.35 76.32):* 每访问一个节点，从头遍历一遍，若地址相同跳出。
 
