@@ -1,6 +1,6 @@
-# Linked List (5/36)
+# Linked List (6/36)
 
-## Easy (5/10)
+## Easy (6/10)
 
 **0021 Merge Two Sorted Lists**
 
@@ -25,6 +25,12 @@
 **0203 Remove Linked List Elements**
 
 *0203-01 (94.86 79.25)*
+
+**0206 Reverse Linked List**
+
+*0206-01 (76.95 92.37):* 迭代方法解决
+
+*0206-02 (98.88 29.01):* 使用栈（递归）进行解决
 
 ## Medium (0/24)
 
