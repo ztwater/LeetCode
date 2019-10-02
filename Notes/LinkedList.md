@@ -1,6 +1,6 @@
-# Linked List (7/36)
+# Linked List (8/36)
 
-## Easy (7/10)
+## Easy (8/10)
 
 **0021 Merge Two Sorted Lists**
 
@@ -37,6 +37,10 @@
 *0234-01 (67.09 91.38):* 翻转后一半的链表，注意不要让两链表汇合，会回收两次导致heap-use-after-free错误 
 
 *0234-02 (97.99 91.38):* 使用双指针可以不用计数而获取链表的一半
+
+**0237 Delete Node in a Linked List**
+
+*0237-01 (80.37 73.08)* 
 
 ## Medium (0/24)
 
