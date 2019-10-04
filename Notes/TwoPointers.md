@@ -1,6 +1,6 @@
-# Two Pointers (6/57)
+# Two Pointers (10/57)
 
-## Easy (6/17)
+## Easy (10/17)
 
 **0026 Remove Duplicates from Sorted Array** *(93.32 93.75)*
 
@@ -19,6 +19,12 @@
 **0234**
 
 **0283 Move Zeroes** *(99.90 90.28)*
+
+**0344 Reverse String** *(92.05 100.00)*
+
+**0345 Reverse Vowels of a String** *(61.75 69.70)*
+
+**0844 Backspace String Compare** *(61.95 72.73)*
 
 ## Medium (0/33)
 
