@@ -1,8 +1,8 @@
-# LeetCode (30/1212)
+# LeetCode (31/1212)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (29) 
 
-## Medium (1)
+## Medium (2)
 
 ## Hard (0)
