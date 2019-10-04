@@ -1,4 +1,4 @@
-# Two Pointers (20/57)
+# Two Pointers (21/57)
 
 ## Easy (17/17)
 
@@ -42,9 +42,13 @@
 
 **0977 Squares of a Sorted Array** *(94.82 98.65)*
 
-## Medium (3/33)
+## Medium (4/33)
 
-**0763 Partition Labels** ***Greedy***
+**0287 Find the Duplicate Number** *(97.45 100.00)* ***GOOD***
+
+	Floyd Cycle Detection
+
+**0763 Partition Labels** *(贪心算法)*
 
 	*01 (92.01 32.26):* 思路是从当前段所有字符最后一次出现的地方进行分割，故首先计算所有字符最后出现的位置，在遍历中不断扩大当前段长度。
 
@@ -52,6 +56,6 @@
 
 **0986 Interval List Intersections** *(76.77 24.00)*
 
-**1004 Max Consecutive Ones III** *(23.96 9.09)*
+**1004 Max Consecutive Ones III** *(23.96 9.09)* 需要重新思考。
 
 ## Hard (0/7)
