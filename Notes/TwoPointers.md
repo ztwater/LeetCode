@@ -1,6 +1,6 @@
-# Two Pointers (15/57)
+# Two Pointers (17/57)
 
-## Easy (15/17)
+## Easy (17/17)
 
 **0026 Remove Duplicates from Sorted Array** *(93.32 93.75)*
 
@@ -32,9 +32,13 @@
 
 **0350 Intersection of Two Arrays II** *(74.14 82.14)*
 
+**0532 K-diff Pairs in an Array** *(95.83 100.00)*
+
 **0844 Backspace String Compare** *(61.95 72.73)*
 
 **0925 Long Pressed Name** *(100.00 85.71)*
+
+**0977 Squares of a Sorted Array** *(94.82 98.65)*
 
 ## Medium (0/33)
 
