@@ -1,2 +1,2 @@
 # LeetCode
-Learn by myself
+Welcome everyone to discuss LeetCode problems!
