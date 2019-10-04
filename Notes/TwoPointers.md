@@ -1,6 +1,6 @@
-# Two Pointers (10/57)
+# Two Pointers (15/57)
 
-## Easy (10/17)
+## Easy (15/17)
 
 **0026 Remove Duplicates from Sorted Array** *(93.32 93.75)*
 
@@ -24,7 +24,17 @@
 
 **0345 Reverse Vowels of a String** *(61.75 69.70)*
 
+**0349 Intersection of Two Arrays** 
+
+	*01 (19.07 60.00):* 使用hashset去重取交 
+
+	*02 (99.29 86.67):* 先对数组进行排序，再取交集 
+
+**0350 Intersection of Two Arrays II** *(74.14 82.14)*
+
 **0844 Backspace String Compare** *(61.95 72.73)*
+
+**0925 Long Pressed Name** *(100.00 85.71)*
 
 ## Medium (0/33)
 
