@@ -1,4 +1,4 @@
-# Two Pointers (17/57)
+# Two Pointers (18/57)
 
 ## Easy (17/17)
 
