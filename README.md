@@ -1,2 +1,2 @@
 # LeetCode
-Welcome every one to discuss LeetCode problems!
+Welcome everyone to discuss LeetCode problems!
