@@ -1,4 +1,4 @@
-# Two Pointers (19/57)
+# Two Pointers (20/57)
 
 ## Easy (17/17)
 
@@ -42,7 +42,7 @@
 
 **0977 Squares of a Sorted Array** *(94.82 98.65)*
 
-## Medium (2/33)
+## Medium (3/33)
 
 **0763 Partition Labels** ***Greedy***
 
@@ -51,5 +51,7 @@
 	*02 (92.01 100.00):* 题目中给了限定，只使用26个小写字母，故只需要一个数组便可以存储所有数据。
 
 **0986 Interval List Intersections** *(76.77 24.00)*
+
+**1004 Max Consecutive Ones III** *(23.96 9.09)*
 
 ## Hard (0/7)
