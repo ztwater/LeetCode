@@ -1,4 +1,4 @@
-# Two Pointers (24/58)
+# Two Pointers (26/58)
 
 ## Easy
 
@@ -6,9 +6,9 @@
 
 **0027 Remove Element** *(70.60 67.65)*
 
-**0028 Implement strStr()** *(90.36 37.14):* 
-	
-	实现了KMP算法用于子串的搜索，了解了BM算法和Sunday算法的原理。
+**0028 Implement strStr()** 
+
+	*01 (90.36 37.14):* 实现了KMP算法用于子串的搜索，了解了BM算法和Sunday算法的原理。
 
 **0088 Merge Sorted Array** *(84.05 73.91)*
 
@@ -48,9 +48,15 @@
 
 **0011 Container With Most Water** *(65.36 100.00)*
 
-**0287 Find the Duplicate Number** *(97.45 100.00)* ***GOOD***
+**0016 3Sum Closest** 
+
+	*01 (79.84 100.00):* 取一个元素出来，用双指针逼近差值，时间复杂度O(n^2)。
+
+**0287 Find the Duplicate Number** *(97.45 100.00)* ***GOOD*** 
 
 	Floyd Cycle Detection
+
+**0524 Longest Word in Dictionary through Deleting** *(67.11 92.31)*
 
 **0763 Partition Labels** *(贪心算法)*
 
@@ -60,8 +66,12 @@
 
 **0986 Interval List Intersections** *(76.77 24.00)*
 
-**1004 Max Consecutive Ones III** *(23.96 9.09)* 需要重新思考。
+**1004 Max Consecutive Ones III** *(23.96 9.09)* ***需要重新思考***。
 
 ## Hard
 
-**0044 Trapping Rain Water** *(95.86 91.14)
+**0044 Trapping Rain Water** 
+
+	*01 (95.86 91.14):* 首先从左到右找到一个“坑”，然后从找到“右壁”（高于“左壁”或着右侧最高）,之后计算中间的水坑面积。
+
+	*02 Optimum Solution:* 在一侧壁高于另一侧时，只有“短板”起作用

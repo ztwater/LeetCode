@@ -1,9 +1,9 @@
-# LeetCode (42/1220)
+# LeetCode (44/1220)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (31) 
 
-## Medium (9)
+## Medium (11)
 
 ## Hard (2)
 
