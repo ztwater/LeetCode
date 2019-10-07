@@ -1,4 +1,4 @@
-# Two Pointers (23/58)
+# Two Pointers (24/58)
 
 ## Easy
 
