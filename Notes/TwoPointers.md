@@ -1,6 +1,6 @@
-# Two Pointers (21/57)
+# Two Pointers (23/58)
 
-## Easy (17/17)
+## Easy
 
 **0026 Remove Duplicates from Sorted Array** *(93.32 93.75)*
 
@@ -42,7 +42,11 @@
 
 **0977 Squares of a Sorted Array** *(94.82 98.65)*
 
-## Medium (4/33)
+**1213**
+
+## Medium
+
+**0011 Container With Most Water** *(65.36 100.00)*
 
 **0287 Find the Duplicate Number** *(97.45 100.00)* ***GOOD***
 
@@ -58,4 +62,6 @@
 
 **1004 Max Consecutive Ones III** *(23.96 9.09)* 需要重新思考。
 
-## Hard (0/7)
+## Hard
+
+**0044 Trapping Rain Water** *(95.86 91.14)
