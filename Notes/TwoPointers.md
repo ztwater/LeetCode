@@ -1,4 +1,4 @@
-# Two Pointers (27/58)
+# Two Pointers (31/58)
 
 ## Easy
 
@@ -6,7 +6,7 @@
 
 **0027 Remove Element** *(70.60 67.65)*
 
-**0028 Implement strStr()** 
+**0028 Implement strStr()** `KMP`
 
 	*01 (90.36 37.14):* 实现了KMP算法用于子串的搜索，了解了BM算法和Sunday算法的原理。
 
@@ -52,13 +52,19 @@
 
 	*01 (79.84 100.00):* 取一个元素出来，用双指针逼近差值，时间复杂度O(n^2)。
 
-**0287 Find the Duplicate Number** *(97.45 100.00)* ***GOOD*** 
+**0075 Sort Colors** *(69.51 89.47)*
 
-	Floyd Cycle Detection
+**0287 Find the Duplicate Number** *(97.45 100.00)* `Floyd Cycle Detection` 
+
+**0424 Longest Repeating Character Replacement** `Sliding Window`
+
+	*01 (8.53 6.90):* 每个字母使用一个队列进行存储替换的字母。
+
+	*02 (92.83 52.65):* 组成最常串的字母如果不是当前字母，则左边界后移。
 
 **0524 Longest Word in Dictionary through Deleting** *(67.11 92.31)*
 
-**0763 Partition Labels** *(贪心算法)*
+**0763 Partition Labels** `Greedy`
 
 	*01 (92.01 32.26):* 思路是从当前段所有字符最后一次出现的地方进行分割，故首先计算所有字符最后出现的位置，在遍历中不断扩大当前段长度。
 
@@ -66,9 +72,13 @@
 
 **0838 Push Dominoes** *(99.40 25.00)*
 
+**0881 Boats to Save People** *(83.53 100.00)*
+
 **0986 Interval List Intersections** *(76.77 24.00)*
 
-**1004 Max Consecutive Ones III** *(23.96 9.09)* ***需要重新思考***。
+**1004 Max Consecutive Ones III** *(23.96 9.09)* `Sliding Window`
+
+**1093 Statistics from a Large Sample**  *(84.27 100.00)*
 
 ## Hard
 
