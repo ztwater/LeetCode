@@ -1,4 +1,4 @@
-# Two Pointers (31/58)
+# Two Pointers (33/58)
 
 ## Easy
 
@@ -54,13 +54,15 @@
 
 **0075 Sort Colors** *(69.51 89.47)*
 
+**0080 Remove Duplicates from Sorted Array II** *(98.90 84.21)*
+
 **0287 Find the Duplicate Number** *(97.45 100.00)* `Floyd Cycle Detection` 
 
 **0424 Longest Repeating Character Replacement** `Sliding Window`
 
 	*01 (8.53 6.90):* 每个字母使用一个队列进行存储替换的字母。
 
-	*02 (92.83 52.65):* 组成最常串的字母如果不是当前字母，则左边界后移。
+	*02 (92.83 52.65):* 组成最长串的字母如果不是当前字母，则左边界后移。
 
 **0524 Longest Word in Dictionary through Deleting** *(67.11 92.31)*
 
@@ -73,6 +75,8 @@
 **0838 Push Dominoes** *(99.40 25.00)*
 
 **0881 Boats to Save People** *(83.53 100.00)*
+
+**0904 Fruit Into Baskets** *(82.81 58.06)* `->0424`
 
 **0986 Interval List Intersections** *(76.77 24.00)*
 

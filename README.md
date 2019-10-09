@@ -1,9 +1,9 @@
-# LeetCode (49/1220)
+# LeetCode (51/1220)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (31) 
 
-## Medium (16)
+## Medium (18)
 
 ## Hard (2)
 
@@ -34,3 +34,5 @@ Previous (5, 0, 0)
 20191007 (0, 5, 1)
 
 20191008 (0, 4, 0)
+
+20191009 (0, 2, 0)
