@@ -1,4 +1,4 @@
-# Two Pointers (34/58)
+# Two Pointers (43/58)
 
 ## Easy
 
@@ -52,9 +52,19 @@
 
 	01 (79.84 100.00): 取一个元素出来，用双指针逼近差值，时间复杂度O(n^2)。
 
+**0018 4Sum**
+
+	01 (99.84 80.70 80min): 外侧双指针从两侧逼近，中间边界单侧分别固定，内侧双指针求解，以此类推。
+
+**0019 Remove Nth Node From End of List** *(100.00 98.68 10min)*
+
 **0075 Sort Colors** *(69.51 89.47)*
 
 **0080 Remove Duplicates from Sorted Array II** *(98.90 84.21)*
+
+**0086 Partition List** *(97.05 70.83)*
+
+**0209 Minimum Size Subarray Sum** *(96.76 100.00)*
 
 **0287 Find the Duplicate Number** *(97.45 100.00)* `Floyd Cycle Detection` 
 
@@ -66,17 +76,41 @@
 
 **0524 Longest Word in Dictionary through Deleting** *(67.11 92.31)*
 
+**0567 Permutation in String** `Sliding Window`
+
+	01 (95.49 100.00): 题目的关键是如何表示字符串的排列，这里不需要给出字符串的各个排列并比较，而是可以直接检查每个字符出现的次数进行判断，之后利用Sliding Window的思想解决问题即可。
+
+**0713 Subarray Product Less Than K**
+
+	01 (66.29 60.00 28min): 计数的过程实现得较为复杂，在start端前移时进行的计算，可以参考答案进行改进。
+
+	02 (87.30 60.00): 在end端前移时进行计数。
+
 **0763 Partition Labels** `Greedy`
 
 	01 (92.01 32.26): 思路是从当前段所有字符最后一次出现的地方进行分割，故首先计算所有字符最后出现的位置，在遍历中不断扩大当前段长度。
 
 	02 (92.01 100.00): 题目中给了限定，只使用26个小写字母，故只需要一个数组便可以存储所有数据。
 
+**0826 Most Profit Assigning Work**
+
+	01 (31.24 27.27): 使用map存储	<profit, difficulty>对，对工人能力排序，从大到小比较。相似的方法包括使用priority_queue，或直接使用pair和自定义排序函数， 在讨论区看到了可以使用BST解决的想法，也值得尝试。
+
+	02 (46.06 9.09): 使用桶排序（bucket sort)。
+
+	03 (94,59 45.45): 使用优化后的排序算法。
+
 **0838 Push Dominoes** *(99.40 25.00)*
+
+**0845 Longest Mountain in Array** *(98.34 14.29 33min)*
 
 **0881 Boats to Save People** *(83.53 100.00)*
 
 **0904 Fruit Into Baskets** *(82.81 58.06)* `->0424`
+
+**0923 3Sum With Multiplicity** 
+
+	01 (21.27 100.00 42min): 三指针解法。由于数的范围给定（0～300），故可以先统计个数，再通过排列组合计算。
 
 **0930 Binary Subarrays With Sum** *(98.33 60.00)*
 
