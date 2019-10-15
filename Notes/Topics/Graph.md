@@ -1,4 +1,4 @@
-# Graph (3/36)
+# Graph (2/36)
 
 ## Easy
 
