@@ -1,4 +1,4 @@
-# Graph (2/36)
+# Graph (5/36)
 
 ## Easy
 
@@ -10,7 +10,13 @@
 
 ## Medium
 
+**0684 Redundant Connection**
+
+	01 (78.56 48.06): 使用并查集将连接的顶点放入同一个集合中，若在Union时发现两顶点在同一个集合中，则记录（使用这样的思想判断环）。
+
 **0959 Regions Cut By Slashes**
+
+	01 (93.84 25.00): 把一个方格分成4块，使用并查集进行合并。
 
 **1161 Maximum Level Sum of a Binary Tree** 
 

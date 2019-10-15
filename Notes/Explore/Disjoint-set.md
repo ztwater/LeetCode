@@ -21,7 +21,7 @@ for (int i = 0; i < size; i++) {
 ```
 ### Path Compression
 ```
-int find (int index) {
+int find (int index, vector<int>& p) {
 	if (index != p[index]) {
 		p[index] = p[p[index]];
 	}
@@ -31,7 +31,7 @@ int find (int index) {
 ### Path Halving & Path Splitting
 ```
 //halving
-int find (int index) {
+int find (int index, vector<int>& p) {
 	while (index != p[index]) P{
 		p[index] = p[p[index]];
 		index = p[index];
@@ -40,7 +40,7 @@ int find (int index) {
 }
 
 //splitting
-int find (int index) {
+int find (int index, vector<int>& p) {
 	while (index != p[index]) P{
 		int tmp = p[index];
 		p[index] = p[p[index]];
@@ -51,9 +51,9 @@ int find (int index) {
 ```
 ### Union (By rank or size)	
 ```
-void union_1 (int idx1, int idx2) {
-	int p1 = find(idx1);
-	int p2 = find(idx2);
+void Union (int idx1, int idx2, vector<int>& p, vector<int>& rank) {
+	int p1 = find(idx1, p);
+	int p2 = find(idx2, p);
 
 	if (p1 == p2) return;
 
