@@ -52,9 +52,9 @@
 
 	01 (79.84 100.00): 取一个元素出来，用双指针逼近差值，时间复杂度O(n^2)。
 
-**0018 4Sum**
+**0018 4Sum** [Discussion on LeetCode](https://leetcode.com/problems/4sum/discuss/402122/c-4ms-beats-99-two-pointers-2)
 
-	01 (99.84 80.70 80min): 外侧双指针从两侧逼近，中间边界单侧分别固定，内侧双指针求解，以此类推。
+	01 (99.84 80.70 80min): 外侧双指针从两侧逼近，中间边界单侧分别固定，内侧双指针求解，以此类推。详见讨论。
 
 **0019 Remove Nth Node From End of List** *(100.00 98.68 10min)*
 
