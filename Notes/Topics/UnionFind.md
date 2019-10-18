@@ -1,4 +1,4 @@
-# Union Find (5/28)
+# Union Find (6/28)
 
 ## Medium
 
@@ -11,6 +11,10 @@
 **0684 Redundant Connection**
 
 	01 (78.56 48.06): 使用并查集将连接的顶点放入同一个集合中，若在Union时发现两顶点在同一个集合中，则记录（使用这样的思想判断环）。
+
+**0721 Accounts Merge**
+
+	01 (96.65 58.82): 使用并查集合并同一个人的所有邮箱，使用了两个hashmap优化查找。
 
 **0947 Most Stones Removed with Same Row or Column**
 
