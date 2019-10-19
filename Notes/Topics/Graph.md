@@ -1,4 +1,4 @@
-# Graph (6/36)
+# Graph (8/36)
 
 ## Easy
 
@@ -19,6 +19,14 @@
 **0959 Regions Cut By Slashes**
 
 	01 (93.84 25.00): 把一个方格分成4块，使用并查集进行合并。
+
+**0990 Satisfiability of Equality Equations**
+
+**1043 Partition Array for Maximum Sum**
+
+	01 (10.98 100.00): DP，使用了二维数组记录从任意起点到任意重点的最大和。
+
+	02 (96.19 100.00): DP，只需要从一个方向进行运算，检查后1，2，...，K项的组合是否会有最大值即可，而且只需要一位数组进行存储。
 
 **1161 Maximum Level Sum of a Binary Tree** 
 
