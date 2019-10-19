@@ -1,6 +1,12 @@
-# Union Find (6/28)
+# Union Find (10/28)
 
 ## Medium
+
+**0130 Surrounded Regions**
+
+	01 (97.34 87.50): 从边界DFS‘O’，没有访问到的地方置‘X’。
+
+**0200 Number of Islands** *(91.75 12.36)*
 
 **0399 Evaluate Division** [Discussion on LeetCode](https://leetcode.com/problems/evaluate-division/discuss/406566/C%2B%2B-Union-Find-0ms-9MB-(100-100))
 
@@ -25,5 +31,11 @@
 **0959 Regions Cut By Slashes**
 
 	01 (93.84 25.00): 把一个方格分成4块，使用并查集进行合并。
+
+**0990 Satisfiability of Equality Equations** *(97.47 100.00)*
+
+**1202 Smallest String With Swaps** 
+
+	01 (65.63 100.00): 不同位置的字母经过任意次对换可得到其全排列，只需把同组对换的所有字母进行排序即可。
 
 ## Hard

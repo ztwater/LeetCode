@@ -1,9 +1,9 @@
-# LeetCode (70/1220)
+# LeetCode (74/1220)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (33) 
 
-## Medium (35)
+## Medium (39)
 
 ## Hard (2)
 
@@ -44,3 +44,5 @@ Previous 5E
 20191016 3M
 
 20191018 1M
+
+20191019 4M
