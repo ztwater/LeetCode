@@ -1,8 +1,8 @@
-# Graph (8/36)
+# Graph (12/36)
 
 ## Easy
 
-**0997 Find the Town Judge** *(77.84 100.00)*
+**0997 Find the Town Judge** (77.84 100.00)
 
 **1042 Flower Planting With No Adjacent** 
 
@@ -10,11 +10,27 @@
 
 ## Medium
 
+**0133 Clone Graph**
+
+	01 (72.06 6.67): 为每个节点提供一个中间整数作为映射，发现并不是必须的。
+
+	02 (94.36 100.00): 使用一个hashmap就可以完成深复制的进行。
+
 **0399 Evaluate Division**
 
 **0684 Redundant Connection**
 
 	01 (78.56 48.06): 使用并查集将连接的顶点放入同一个集合中，若在Union时发现两顶点在同一个集合中，则记录（使用这样的思想判断环）。
+
+**0785 Is Graph Bipartite?** 
+
+	01 (79.49 38.46): BFS
+
+**0802 Find Eventual Safe States** 
+
+	01 (92.54 100.00): 每个节点视为一个状态机，只有当其所有子树都为终态时才为终态。
+
+**0841 Keys and Rooms** (65.92 100.00)
 
 **0959 Regions Cut By Slashes**
 
