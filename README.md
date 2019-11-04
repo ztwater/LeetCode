@@ -1,11 +1,11 @@
-# LeetCode (79/1236)
+# LeetCode (80/1250)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (33) 
 
 ## Medium (44)
 
-## Hard (2)
+## Hard (3)
 
 ## Contest (2)
 
