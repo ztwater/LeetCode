@@ -1,9 +1,9 @@
-# LeetCode (80/1250)
+# LeetCode (81/1250)
 Welcome everyone to discuss LeetCode problems!
 
 ## Easy (33) 
 
-## Medium (44)
+## Medium (45)
 
 ## Hard (3)
 
@@ -48,3 +48,7 @@ Previous 5E
 20191019 5M
 
 20191022 4M
+
+20191104 1H
+
+20191105 1M

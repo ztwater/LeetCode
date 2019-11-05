@@ -1,4 +1,4 @@
-# Graph (13/36)
+# Graph (14/36)
 
 ## Easy
 
@@ -21,6 +21,10 @@
 **0684 Redundant Connection**
 
 	01 (78.56 48.06): 使用并查集将连接的顶点放入同一个集合中，若在Union时发现两顶点在同一个集合中，则记录（使用这样的思想判断环）。
+
+**0743 Network Delay Time**
+
+	01 (88.20 94.40): Dijkstra
 
 **0785 Is Graph Bipartite?** 
 
