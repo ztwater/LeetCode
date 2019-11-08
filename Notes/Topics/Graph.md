@@ -54,6 +54,8 @@
 
 	Other Solutions: 1. 使用DFS也可以实现；2. 可以只使用一个队列，但是需要记录本层元素的数目。
 
+**1162 As Far from Land as Possible**
+
 ## Hard
 
 **0765 Couples Holding Hands**
