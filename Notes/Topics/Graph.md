@@ -16,6 +16,14 @@
 
 	02 (94.36 100.00): 使用一个hashmap就可以完成深复制的进行。
 
+**0207 Course Schedule**
+
+	01: 使用Floyd判断连通性
+
+	02: BFS + 拓扑排序
+
+	03: 使用邻接表进行存储
+
 **0399 Evaluate Division**
 
 **0684 Redundant Connection**
